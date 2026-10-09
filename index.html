@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yasal · Mimori</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="logo.png">
 <style>
   :root { color-scheme: light dark; --bg: #f6f7fb; --card: #ffffff; --text: #1f2a37; --muted: #5b6676; --accent: #3f5a7a; }
   @media (prefers-color-scheme: dark) { :root { --bg: #12161c; --card: #1b2129; --text: #e6e9ee; --muted: #9aa4b2; --accent: #9db7d6; } }
@@ -16,12 +18,17 @@
   .muted { color: var(--muted); font-size: 14px; }
   a { color: var(--accent); }
   nav { margin-bottom: 16px; font-size: 14px; }
+  .brand { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 20px; color: var(--text); text-decoration: none; font-size: 22px; font-weight: 700; }
+  .brand img { width: 48px; height: 48px; }
+  .brand.large { flex-direction: column; font-size: 28px; }
+  .brand.large img { width: 96px; height: 96px; }
 </style>
 </head>
 <body>
 <main>
+<a class="brand large" href="./"><img src="logo.png" alt="">Mimori</a>
 <div class="card">
-<h1>Mimori</h1>
+<h1>Yasal Bilgiler</h1>
 <p class="muted">Son güncelleme: 7 Ekim 2026</p>
 <h2><a href="gizlilik.html">Gizlilik Politikası</a></h2>
 <h2><a href="kullanim-kosullari.html">Kullanım Koşulları</a></h2>
